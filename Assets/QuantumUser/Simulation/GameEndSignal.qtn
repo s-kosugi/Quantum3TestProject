@@ -1,0 +1,5 @@
+signal EndGame();
+event GameEnded{
+    Int32 FinalScore;
+    String WinnerName;
+}

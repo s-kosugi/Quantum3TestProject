@@ -1,0 +1,4 @@
+component AsteroidsShipRespawn{
+    FP RespawnTimer;
+}
+signal AsteroidSpawnShip(EntityRef owner);

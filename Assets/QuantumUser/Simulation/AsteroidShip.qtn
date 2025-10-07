@@ -1,0 +1,6 @@
+component AsteroidShip
+{
+    AssetRef<AsteroidsShipConfig> ShipConfig;
+    FP FireInterval;
+    Int32 Score;
+}

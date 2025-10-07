@@ -1,0 +1,5 @@
+singleton component AsteroidsGameRule{
+    FP ElapsedTime;
+    FP MaxTime;
+    bool GameEnded;
+}
