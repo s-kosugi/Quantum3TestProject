@@ -1,0 +1,7 @@
+Quantum3 SigletonComponentについて
+・シミュレーション中で単一の構造体
+・FrameからGetSingletonで取得が可能
+・値渡しのため、取得した値を更新するのにはSetSingletonを必要がある。
+・SetSingletonをしたときに初回はインスタンス生成、２回目以降は更新
+・あとは通常のComponentと同じ。
+・ポインタでの取得もできる
